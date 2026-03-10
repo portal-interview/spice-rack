@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spice-rack
+  description: Shared backend utilities library — essential spices for every Flavortown service
+  annotations:
+    github.com/project-slug: portal-interview/spice-rack
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://github.com/portal-interview/spice-rack
+      title: GitHub
+spec:
+  type: library
+  lifecycle: production
+  owner: group:portal-interview/team-sauce
